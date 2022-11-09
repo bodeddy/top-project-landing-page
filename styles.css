@@ -4,3 +4,18 @@ body {
     flex-direction: column;
 }
 
+.header, .banner {
+    background-color: #1F2937;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
