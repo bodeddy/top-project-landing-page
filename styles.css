@@ -4,7 +4,7 @@ body {
     flex-direction: column;
 }
 
-.header, .banner {
+.hero, .hero-banner, footer {
     background-color: #1F2937;
 }
 
@@ -14,8 +14,38 @@ body {
     font-weight: bolder;
 }
 
-.hero-secondary-text {
+.hero-secondary-text, .header-links {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+button {
+    color: #3882F6;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
 }
 
