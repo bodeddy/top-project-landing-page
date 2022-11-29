@@ -1,13 +1,12 @@
 body {
     display:flex;
     flex-direction: column;
-    align-items:stretch;
     font-family: 'Roboto', sans-serif;
 }
 
 .hero {
     display:flex;
-    
+    justify-content: space-between;
 }
 
 .hero, .hero-banner, footer {
@@ -27,8 +26,6 @@ body {
 
 li {
     list-style: none;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .header-logo {
@@ -60,5 +57,3 @@ button {
     font-weight: lighter;
     color: #1F2937;
 }
-
-
