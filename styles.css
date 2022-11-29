@@ -45,6 +45,9 @@ button {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
 }
 
 .quote {
@@ -56,4 +59,15 @@ button {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 100px;
+}
+
+.quote-attribute {
+    margin-left: 900px;
+    margin-right: 200px;
+    font-weight:bolder;
+    color: #1F2937;
+    padding-bottom: 150px;
 }
