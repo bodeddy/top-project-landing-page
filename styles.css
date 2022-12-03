@@ -28,13 +28,46 @@ li {
     list-style: none;
 }
 
+.hero-banner {
+    display: flex;
+    flex-shrink: 1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-shrink: 1;
+}
+
+.hero-banner-left {
+    margin-left: 100px;
+    padding-right: 400px;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
+.hero-secondary-text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 button {
-    color: #3882F6;
+    color:#F9FAF8;
+    font-weight: bold;
+    background-color: #3882F6;
+    margin-top: 50px;
+    padding: 20px 40px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.banner-image {
+    height: auto;
+    width: 400px;
+    margin-right: 100px;
 }
 
 .call-to-action {
