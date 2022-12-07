@@ -29,6 +29,7 @@ body {
     margin-top: 20px;
     list-style: none;
     display: flex;
+    /* Need to sort out spacing between items */
 }
 
 .hero-banner {
@@ -86,6 +87,30 @@ button {
     display: flex;
     justify-content: center;
     padding: 40px;
+}
+
+.main-text-images {
+    display: flex;
+}
+
+.main-image-one {
+    height: auto;
+    width: 200px;
+}
+
+.main-image-two {
+    height: auto;
+    width: 200px;
+}
+
+.main-image-three {
+    height: auto;
+    width: 200px;
+}
+
+.main-image-four {
+    height: auto;
+    width: 200px;
 }
 
 .quote {
