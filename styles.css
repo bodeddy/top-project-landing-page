@@ -91,6 +91,11 @@ button {
 
 .main-text-images {
     display: flex;
+    justify-content:center;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 .main-image-one {
