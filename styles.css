@@ -185,3 +185,13 @@ button {
     color: #1F2937;
     padding-bottom: 150px;
 }
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    text-align: center;
+}
