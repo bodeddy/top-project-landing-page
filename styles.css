@@ -57,7 +57,7 @@ body {
     padding-bottom: 10px;
 }
 
-button {
+.btn-sign-up-one {
     color:#F9FAF8;
     font-weight: bold;
     background-color: #3882F6;
@@ -184,6 +184,40 @@ button {
     font-weight:bolder;
     color: #1F2937;
     padding-bottom: 150px;
+}
+
+.call-to-action {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.cta-one, .cta-two {
+    color: #E5E7EB;
+    font-size: 24px;
+}
+
+.cta-one {
+    font-weight: bolder;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-sign-up-two {
+    padding: 20px 40px;
+    border-style: solid;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 footer {
