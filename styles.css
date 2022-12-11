@@ -163,6 +163,9 @@ button {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quote-text {
@@ -176,8 +179,8 @@ button {
 }
 
 .quote-attribute {
-    margin-left: 900px;
-    margin-right: 200px;
+    /* margin-left: 900px;
+    margin-right: 200px; */
     font-weight:bolder;
     color: #1F2937;
     padding-bottom: 150px;
