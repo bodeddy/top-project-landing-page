@@ -30,8 +30,12 @@ body {
     margin-right: 100px;
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     /* Need to sort out spacing between items */
+}
+
+.header-link-one, .header-link-two, .header-link-three {
+    padding-left: 40px;
 }
 
 .hero-banner {
